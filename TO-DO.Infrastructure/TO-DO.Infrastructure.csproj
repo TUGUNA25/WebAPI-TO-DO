@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <RootNamespace>TO_DO.Infrastructure</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\TO-DO.Application\TO-DO.Application.csproj" />
+    <ProjectReference Include="..\TO-DO.Persistence\TO-DO.Persistence.csproj" />
+  </ItemGroup>
+
+</Project>
